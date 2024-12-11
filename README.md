@@ -33,9 +33,9 @@ Steps to Run the Project
 1. Clone the Repository
 
 If you are using GitHub, clone the repository:
-
+```
 git clone <repository-url>
-
+```
 Alternatively, download the zip file and extract it to your desired directory.
 
 2. Open in Visual Studio Code
@@ -49,9 +49,9 @@ You can run the project directly in your browser by opening the index.html file.
 To use a local server:
 
 Install the live-server npm package globally:
-
+```
 npm install -g live-server
-
+```
 Navigate to the project folder:
 
 cd project-directory
@@ -67,25 +67,25 @@ This will automatically open the project in your default browser.
 No external libraries or frameworks are required for this project. However, you may optionally use live-server for easier local testing.
 
 File Descriptions
-
+```
 index.html
-
+```
 The main HTML file contains:
 
 Four <span> elements with unique ids (grey, white, blue, yellow) for the color buttons.
 
 A basic structure with navigation links and headings.
-
+```
 style.css
-
+```
 Contains styles for:
 
 Buttons (span elements) with different background colors.
 
 Layout and responsiveness.
-
+```
 index.js
-
+```
 The JavaScript file contains:
 
 Event listeners for the buttons to change the background color of the page dynamically based on the clicked button's id.
